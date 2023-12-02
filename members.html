@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Project Name</title>
+    <link rel="stylesheet" href="index.html">
+    <style>
+        body {
+            background-image: url("imags/KAFD2.jpg");
+            background-size: cover;
+            background-position: center;
+            background-color: #f0f0f0; 
+            color: #ffffff; 
+            margin: 0;
+            padding: 0; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+
+        li {
+            margin-bottom: 10px;
+            font-size: 30px;
+            list-style: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Group Members:</h1>
+    </header>
+    <ul id="groupList"></ul>
+
+    <script>
+        const members = ['Reemas Naser 431001361', 'Yusra Faiez 431003687  ', 'Raghad Eid 431003687', 'Ranim Saad 431007385'];
+        const groupList = document.getElementById('groupList');
+
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+            return array;
+        }
+
+        function displayRandomMembers() {
+            const shuffledMembers = shuffleArray(members);
+
+            shuffledMembers.forEach((member) => {
+                const listItem = document.createElement('li');
+                listItem.textContent = member;
+                groupList.appendChild(listItem);
+            });
+        }
+
+        displayRandomMembers();
+    </script>
+</body>
+</html>

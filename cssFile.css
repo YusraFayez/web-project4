@@ -1,0 +1,55 @@
+h1{
+    font-size:100 ;
+    font-style:italic;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    padding: 50;
+    color:rgb(63, 63, 98);
+    
+}
+  .food{
+color: rgb(0, 0, 54);
+font-size: 25;
+font-style:normal;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+padding: 20;
+margin: 20;
+  }
+
+  .p1{
+    font-size: 50;
+    margin: 30;
+
+}
+.p2{
+    font-size: 30;
+    margin: 30;
+
+}
+.p3{
+    color: grey;
+    font-size: 13;
+}
+.fooddesi{
+    padding: 20px;
+    margin: 20;
+
+}
+.event{
+    color:black;
+    font-size: 25;
+    font-style: normal;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding:20;
+    margin: 20;
+}
+.cafes{
+    color: rgb(127, 83, 25);
+    font-size: 25;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    padding: 20;
+    margin: 20;
+}
+
+

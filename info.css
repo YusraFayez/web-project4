@@ -1,0 +1,28 @@
+body{ text-align: center;
+    margin: 6px;
+    background-color:Gainsboro;
+    font-size: 35px;
+ font-weight: bold;
+}
+
+  
+h1 { color:#1f487e;
+   background-color:LightGray;}
+
+    
+.p { color: #333;
+font-size: 40;
+}
+    
+
+h5{ text-align: left;}
+
+h3{text-align: center;}
+
+div.c{ text-align: left;}
+
+
+#id{ border: 2px solid #333;}
+
+
+img{ border: 2px solid #333;}

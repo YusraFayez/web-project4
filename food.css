@@ -1,0 +1,38 @@
+h1{
+    font-size: 65;
+    text-align: center;
+    color: white;
+    padding: 10;
+}
+
+
+body{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("imags/food.jpg") ;
+    height: 100vh;
+    background-size:auto;
+    background-position: center;
+    position: relative;
+}
+ul{
+    list-style: none;
+    list-style-type: none;
+    margin: 20;
+    padding: 20;
+    background-color: rgb(172, 220, 172);
+    font-size: 50;
+    font-family:'Courier New', Courier, monospace
+}
+li a{
+    display: block;
+    color: navy;
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+    color:gray
+}
+a:hover{
+    text-decoration: none;
+    color: white;
+
+}
